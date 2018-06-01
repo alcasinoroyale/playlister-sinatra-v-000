@@ -10,3 +10,4 @@ module Slugifiable
       self.all.find{ |instance| instance.slug == slug }
     end
   end
+end
