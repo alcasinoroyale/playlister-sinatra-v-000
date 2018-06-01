@@ -12,6 +12,7 @@ gem 'pry'
 gem 'rack-flash3'
 
 group :test do
+  gem 'tux'
   gem 'rspec'
   gem 'capybara'
   gem 'rack-test'
