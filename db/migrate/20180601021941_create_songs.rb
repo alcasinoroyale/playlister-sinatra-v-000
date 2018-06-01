@@ -4,3 +4,4 @@ class CreateSongs < ActiveRecord::Migration
       t.string :name
   end
 end
+end
