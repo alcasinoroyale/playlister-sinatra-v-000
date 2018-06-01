@@ -1,4 +1,6 @@
 class SongsController < ApplicationController
+  use Rack::flash
+  
   get '/songs' do
     @songs = Song.all
     erb :'songs/index'
