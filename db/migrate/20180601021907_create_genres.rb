@@ -4,3 +4,4 @@ class CreateGenres < ActiveRecord::Migration
       t.string :name
   end
 end
+end
